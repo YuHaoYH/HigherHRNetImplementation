@@ -1,0 +1,140 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+### Vim template
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### IPythonNotebook template
+# Temporary data
+.ipynb_checkpoints/
+
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+#lib/
+#lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+*.ipynb
+*.params
+*.json
+.vscode/
+
+lib/pycocotools/_mask.c
+lib/nms/cpu_nms.c
+
+output/*
+models/*
+log/*
+data/*
+external/
+
+draws/
+plot/
+
+/.gitignore
+/lib/config/__init__.py
+/lib/dataset/target_generators/__init__.py
+/lib/dataset/transforms/__init__.py
+/lib/dataset/__init__.py
+/lib/fp16_utils/__init__.py
+/lib/models/__init__.py
+/tools/_init_paths.py
+/figures/arch_v2.png
+/lib/dataset/transforms/build.py
+/lib/dataset/build.py
+/lib/dataset/COCODataset.py
+/lib/dataset/COCOKeypoints.py
+/tools/crowdpose_concat_train_val.py
+/lib/dataset/CrowdPoseDataset.py
+/lib/dataset/CrowdPoseKeypoints.py
+/lib/config/default.py
+/tools/dist_train.py
+/lib/fp16_utils/fp16_optimizer.py
+/lib/fp16_utils/fp16util.py
+/lib/core/group.py
+/lib/core/inference.py
+/LICENSE
+/lib/core/loss.py
+/lib/fp16_utils/loss_scaler.py
+/lib/config/models.py
+/lib/models/pose_higher_hrnet.py
+/README.md
+/requirements.txt
+/lib/dataset/target_generators/target_generators.py
+/lib/core/trainer.py
+/lib/dataset/transforms/transforms.py
+/lib/utils/transforms.py
+/lib/utils/utils.py
+/tools/valid.py
+/lib/utils/vis.py
+/experiments/coco/higher_hrnet/w32_512_adam_lr1e-3.yaml
+/experiments/crowd_pose/higher_hrnet/w32_512_adam_lr1e-3.yaml
+/experiments/crowd_pose/higher_hrnet/w32_512_adam_lr1e-3_coco.yaml
+/experiments/crowd_pose/higher_hrnet/w32_512_adam_lr1e-3_syncbn.yaml
+/experiments/coco/higher_hrnet/w32_640_adam_lr1e-3.yaml
+/experiments/crowd_pose/higher_hrnet/w32_640_adam_lr1e-3.yaml
+/experiments/coco/higher_hrnet/w48_640_adam_lr1e-3.yaml
+/experiments/crowd_pose/higher_hrnet/w48_640_adam_lr1e-3.yaml
+/lib/utils/zipreader.py
